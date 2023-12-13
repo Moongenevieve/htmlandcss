@@ -1,0 +1,146 @@
+body{
+    background-color: #fefefe
+    margin: 0;
+    padding: 0;
+
+}
+.top{
+    height: 50vh;
+    overflow: hidden; 
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+.firstimage img{
+    width: 100%;
+}
+.containerup {
+    display: flex;
+    position: absolute;
+    top: 0;    /*bottom: 50px;*/
+    width: 100%;   
+}
+
+.icon, .button{
+    width:25%;
+}
+.icon{
+    font: 10px tahoma;
+    font-weight: bold;
+    color: #fefefe;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.display{
+    width: 50%;
+    padding-top: 5px;
+}
+
+.display button{
+    color: #fefefe;
+    background-color: #5e9bfe;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding:7px 23px;
+    margin: 10px;
+    }
+
+    
+.bottom{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.font1{
+    color: #fefefe;
+    font: 40px tahoma;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.font2{
+    color: #fefefe;
+    font: 13px tahoma;
+}
+
+.font3{
+    color: rgb(15, 13, 13);
+    font: 25px  tahoma;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button button{
+    color: #fefefe;
+    background-color: #ec1525;
+    border-radius: 10px;
+    border: none;
+    font: 7px tahoma;
+    font-weight: bold;
+    padding:5px 10px;
+    position: absolute;
+    right: 30px;
+}
+.button{
+    padding-top: 20px;
+}
+
+.fivebuttons{
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 10px;
+}
+
+
+.fivebuttons button{
+    color: #336dca;
+    background-color: #fefefe;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    padding:10px 25px;
+    border: 2px solid #336dca;
+    }
+
+    .fivebuttons button:hover{
+        color: #fefefe;
+        background-color:  #336dca;
+        }
+
+
+    #highlight{
+        
+        color: #fefefe;
+        background-color: #336dca;
+        border: none;
+    }
+
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .photos img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    .photos{
+        margin: 5px;
+       overflow: hidden;
+        width: 23%;
+        height:auto;
+    }
+
+    .photos:hover{
+        border: 2px solid #336dca;
+    }
